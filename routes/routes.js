@@ -1,7 +1,6 @@
 const express = require('express')
-const db = require('../db/index')
-
 const router = express.Router()
+const db = require('../db/index')
 
 router.get('/', async (req, res, next) => {
   try {
